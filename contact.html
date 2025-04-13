@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Contact - Ibrahim Ndagiwe</title>
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="nav__logo">Ibrahim Ndagiwe</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="projects.html" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link active-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact__container bd-grid">
+                <form action="https://formspree.io/f/your-form-id" method="POST" class="contact__form">
+                    <input type="text" name="name" placeholder="Your Name" class="contact__input" required>
+                    <input type="email" name="email" placeholder="Your Email" class="contact__input" required>
+                    <textarea name="message" placeholder="Your Message" cols="0" rows="10" class="contact__input" required></textarea>
+                    <input type="submit" value="Send Message" class="contact__button button">
+                </form>
+                <div class="contact__info">
+                    <p>Want to discuss a project? Reach out!</p>
+                    <p><i class='bx bx-briefcase'></i> <a href="https://www.upwork.com/freelancers/~011c962f2a8e43aaf7">Hire me on Upwork</a></p>
+                    <p><i class='bx bx-envelope'></i> ibrahimndagiwe99@gmail.com</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__title">Ibrahim Ndagiwe</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-github'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bx-briefcase'></i></a>
+        </div>
+        <p class="footer__copy">&copy; 2025 Ibrahim Ndagiwe. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
